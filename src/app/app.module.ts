@@ -10,12 +10,14 @@ import { MyApp } from './app.component';
 import { FIREBASE_CREDENTIALS } from './firebase.credentials';
 import { ShoppingListPage } from '../pages/shopping-list/shopping-list';
 import { AddShoppingPage } from '../pages/add-shopping/add-shopping';
+import { EditShoppingItemPage } from '../pages/edit-shopping-item/edit-shopping-item';
 
 @NgModule({
   declarations: [
     MyApp,
     ShoppingListPage,
-    AddShoppingPage
+    AddShoppingPage,
+    EditShoppingItemPage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { AddShoppingPage } from '../pages/add-shopping/add-shopping';
   entryComponents: [
     MyApp,
     ShoppingListPage,
-    AddShoppingPage
+    AddShoppingPage,
+    EditShoppingItemPage
   ],
   providers: [
     StatusBar,
